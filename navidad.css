@@ -1,0 +1,297 @@
+body{
+    animation-name: fondo;
+    animation-duration: 16s;
+    
+}
+
+@keyframes fondo{
+    30%{background-color: rgb(207, 236, 207);}
+    0%{background-color: rgb(205, 232, 240);}
+    70%{background-color: rgb(249, 218, 223);}
+    90%{background-color: rgb(255, 227, 209);}
+    100%{background-color: azure;}
+}
+
+
+.mensaje1{
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    position: absolute;
+    font-size: 6em;
+    animation-name: mensajeI;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes mensajeI{
+    from {left: 0em;}
+     to{left:5em;}
+100%{opacity:0;}
+99%{opacity: 0.5;}
+98%{opacity: 1;}
+1%{opacity: 0.5;}
+1%{opacity:0 ;}
+
+}
+
+.mensaje{
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    position:absolute;
+    font-size: 2.3em;
+    margin-top: 3.5em;
+    animation-name: mensajeIi;
+    animation-delay: 8s;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    left:0em;
+    visibility: hidden;
+}
+
+@keyframes mensajeIi{
+    from {left: 0em;}
+    to{left:5em;}
+100%{opacity:0;}
+99%{opacity: 0.5;}
+98%{opacity: 1;}
+1%{opacity: 0.5;}
+1%{opacity:0;}
+0%{opacity: 0;visibility: visible;}
+}
+
+
+.mensaje2{
+    font-family: 'Raleway', sans-serif;
+    position:absolute;
+    margin-top: 10em;
+    transform:rotate(90deg);
+    font-size: 1.5em;
+    margin-right: 2%;
+    right: 0%;
+    animation-name: mensajeII;
+    animation-duration: 12s;
+    animation-delay: 15s;
+    visibility: hidden;
+}
+
+@keyframes mensajeII{
+    from {margin-top: 0em;}
+    to{margin-top:9em;}
+100%{opacity:0;font-size: 2.3em;transform: rotate(0deg);}
+96%{opacity:0.3;font-size: 2.3em;transform: rotate(0deg);}
+95%{opacity: 0.5;transform: rotate(0deg);font-size: 2.3em;}
+90%{opacity: 1;transform: rotate(0deg);font-size: 2.3em;}
+80%{opacity:1;transform: rotate(0deg);font-size: 2.2em}
+70%{opacity:1;transform: rotate(90deg);font-size: 1.5em;}
+1%{opacity: 0.5;transform: rotate(90deg);font-size: 1.5em;}
+1%{opacity:0;transform: rotate(90deg);font-size: 1.5em;}
+0%{opacity: 0;visibility: visible;}
+
+}
+
+.imageluces{
+    height:36em;
+    top:-30em;
+    right:5em;
+    position: absolute;
+    animation-name: imagen1;
+    animation-duration: 10s;
+    animation-delay: 16s;
+    z-index:-1;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+@keyframes imagen1{from {top: -30em;}
+to{top:0em;}
+    100%{opacity:0;right:35em;}
+    96%{opacity:0.3;right:35em;}
+95%{opacity: 0.5;right:35em;}
+90%{opacity: 1;right:35em;}
+85%{opacity:1;right:35em}
+75%{opacity:1;right:7em}
+70%{opacity:1;right:7em}
+60%{opacity:1;right:7em}
+50%{opacity:1;right:7em}
+1%{opacity: 1;right:7em}
+1%{opacity:1;}
+0%{opacity: 1;visibility: visible;}
+}
+
+.imagenestrellas{
+    height:18em;
+    left:3em;
+    top:2em;
+    position: absolute;
+    visibility: hidden;
+    animation-name:estrellas;
+    animation-duration: 10s;
+    animation-delay:16s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+@keyframes estrellas{
+    100%{opacity: 0;}
+    95%{opacity: 0.5;}
+90%{opacity: 1;}
+85%{opacity:1;}
+75%{opacity:1;}
+70%{opacity:1;}
+60%{opacity:1;}
+50%{opacity:1;}
+10%{opacity: 0.5;}
+1%{opacity:0;}
+0%{opacity: 0;visibility: visible;}
+}
+
+.tiocongorro{
+    height:33em;
+    left:5em;
+    top:3em;
+    position: absolute;
+    visibility: hidden;
+    animation-name:tiosonriente;
+    animation-duration: 10s;
+    animation-delay:16s;
+    animation-fill-mode: forwards;
+    z-index: -1;
+}
+
+@keyframes tiosonriente{
+    100%{opacity: 0;}
+    95%{opacity: 0.5;}
+90%{opacity: 1;}
+85%{opacity:1;}
+75%{opacity:1;}
+70%{opacity:1;}
+60%{opacity:1;}
+50%{opacity:1;}
+10%{opacity: 0.5;}
+1%{opacity:0;}
+0%{opacity: 0;visibility: visible;}
+  
+}
+
+.imgarbol{
+    visibility: hidden;
+    position: absolute;
+    animation-name: arbol;
+    animation-delay: 27s;
+    bottom:0em;
+    animation-fill-mode: forwards;
+    z-index:-2;
+    animation-duration: 8s;
+}
+
+@keyframes arbol{
+    
+    100%{opacity:0;visibility: visible;}
+95%{opacity: 0.5;visibility: visible;}
+90%{opacity: 1;visibility: visible;}
+80%{opacity:1;visibility: visible;}
+70%{opacity:1;visibility: visible;}
+50%{opacity: 1;visibility: visible;}
+30%{opacity: 1;visibility: visible;}
+10%{opacity: 0.8;visibility: visible;}
+5%{opacity: 0.5;visibility: visible;}
+1%{opacity:0;visibility: visible;}
+0%{opacity: 0;visibility: visible;}
+}
+
+.mensaje3{
+    font-family: 'Raleway', sans-serif;
+    position:absolute;
+    margin-top: 0em;
+    font-size: 4em;
+    left:7em;
+    animation-name: mensajeIII;
+    animation-delay: 27s;
+    animation-duration: 8s;
+    
+    visibility: hidden;
+}
+
+@keyframes mensajeIII{
+    from{top:1em}
+    to{top:4em}
+    100%{opacity:0;}
+99%{opacity: 0.5;}
+98%{opacity: 1;}
+50%{opacity: 1;}
+10%{opacity: 0.5;}
+1%{opacity:0;visibility: visible;}
+}
+
+.mierda{
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.final{
+    left:3em;
+    visibility: hidden;
+    position:absolute;
+    margin-top: 2.5em;
+    font-size: 6em;
+   line-height: 0em;
+   animation-name:fin;
+   animation-duration: 6s;
+   animation-delay: 36s;
+   animation-fill-mode: forwards;
+}
+
+@keyframes fin{
+    100%{opacity:0;}
+    90%{opacity:0.5;}
+    50%{opacity:1;}
+    20%{opacity: 0.8;}
+    10%{opacity: 0.5;visibility: visible;}
+    0%{opacity: 0;visibility: visible;}
+}
+
+.nombre{
+    visibility: hidden;
+    position: absolute;
+    top:0em;
+    margin-top: 4.5em;
+    font-size: 4.5em;
+   text-align: center;
+   left:0.5em;
+   animation-name:name;
+   animation-duration: 6s;
+   animation-delay:38s;
+   animation-fill-mode: forwards;
+}
+
+@keyframes name{
+    100%{opacity:0;}
+    90%{opacity:0.5;}
+    50%{opacity:1;}
+    20%{opacity: 0.8;}
+    10%{opacity: 0.5;visibility: visible;}
+    0%{opacity: 0;visibility: visible;}
+}
+
+.despedida{
+    transform: rotate(6deg);
+    height:30em;
+    right:4em;
+    visibility: hidden;
+    position:absolute;
+    margin-top: 3.5em;
+   animation-name:despedida;
+   animation-duration: 6s;
+   animation-delay: 36s;
+   animation-fill-mode: forwards; 
+}
+
+@keyframes despedida{
+    100%{opacity:0;}
+    90%{opacity:0.5;}
+    50%{opacity:1;}
+    20%{opacity: 0.8;}
+    10%{opacity: 0.5;visibility: visible;}
+    0%{opacity: 0;visibility: visible;}
+}
